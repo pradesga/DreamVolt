@@ -1,0 +1,22 @@
+.img-hover(@duration, @scale) {
+	-webkit-transition: all @duration ease; /* Safari and Chrome */
+    -moz-transition: all @duration ease; /* Firefox */
+    -ms-transition: all @duration ease; /* IE 9 */
+    -o-transition: all @duration ease; /* Opera */
+    transition: all @duration ease;
+    &:hover {
+		-webkit-transform:scale(@scale); /* Safari and Chrome */
+	    -moz-transform:scale(@scale); /* Firefox */
+	    -ms-transform:scale(@scale); /* IE 9 */
+	    -o-transform:scale(@scale); /* Opera */
+	     transform:scale(@scale);
+	}
+};
+
+.navbar-fixed(@z-index) {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top:0;
+	z-index: @z-index;
+};

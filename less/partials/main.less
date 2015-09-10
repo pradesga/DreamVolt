@@ -1,0 +1,124 @@
+.dreambox{
+	.header-dre{
+	    display: table;
+		padding: 10px 0;
+		width: 100%;
+		.hename{
+		    font-size: @dv-small-size;
+			font-style: italic;
+			padding-bottom: 4px;
+			padding-top: 2%;
+			a{
+				display: block;
+				font-size: @dv-normal-size;
+				font-style: normal;
+				font-weight: bold;
+			}
+		}
+		.pull-right{
+			.like-b{
+				background: url("../img/post-h-icon.png") @dv-norepeat scroll left top;
+				border: medium none;
+				box-shadow: none;
+				font-size: 10px;
+				padding: 0 0 0 20px;			
+			}
+			.payu-b {
+				background: url("../img/post-h-icon.png") @dv-norepeat scroll left center;
+				border: medium none;
+				box-shadow: none;
+				font-size: 10px;
+				padding: 0 0 0 20px;
+			}
+			.foll-b {
+				background: url("../img/post-h-icon.png") @dv-norepeat scroll left bottom;
+				border: medium none;
+				box-shadow: none;
+				font-size: 10px;
+				padding: 0 0 0 20px;
+			}
+		}
+	}
+	.dpost-co{
+		.dream-tit{
+			color: @dv-black-o70;
+			font-size: @dv-small-size;
+			font-weight: bold;
+			margin: 4px 0 8px;
+			text-decoration: none;
+			display: table;
+			width: 100%;
+		}
+		p.excerpt-dream{
+		    display: table;
+			margin: 10px 0 0;
+			width: 100%;
+		}
+		.dream-thumb {
+			margin: 10px 0;
+			overflow: hidden;
+			position: relative;
+			img{
+				width: 100%;
+				height: auto;
+			}
+			.shadow-image {
+				background: @dv-black-o25;
+				bottom: 0;
+				height: 0;
+				min-height: 0;
+				position: absolute;
+				transition: (0.5s);
+				width: 100%;
+				z-index: 2;
+				.shadow-content {
+					color: @dv-white;
+					position: relative;
+					text-align: center;
+					top: 40%;
+					z-index: 3;
+					strong{
+					    display: block;
+						font-size: 18px;
+						margin: 0 4px 10px;
+						text-transform: uppercase;
+					}
+					.kress-wrap {
+						display: inline-flex;
+						float: none;
+						margin: 0 auto;
+						.added-kres {
+							background: @dv-blue;
+							font-weight: bold;
+							line-height: normal;
+							margin: 4px;
+							padding: 8px;
+							width: 77px;
+							span{
+								display: block;
+							}
+						}
+						.done-kres {
+							background: @dv-blue;
+							font-weight: bold;
+							line-height: normal;
+							margin: 4px;
+							padding: 8px;
+							width: 77px;
+							span{
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		} 
+		.dream-thumb:hover {
+			.shadow-image {
+				bottom: auto;
+				min-height: 100%;
+				top: 0;
+			}
+		}
+	}
+}

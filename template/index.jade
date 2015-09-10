@@ -1,0 +1,352 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		title Dream Volt | Get Your Dreams
+		link(rel="stylesheet" href="css/style.css")
+	body
+		header
+			.container-fluid
+				.row
+					#dv-fixed.navbar-header.col-xs-12
+						.pull-right.col-xs-12.col-sm-6 
+							ul.profile.nav.navbar-nav.navbar-right
+								li.dropdown
+									a.dropdown-toggle.mem1-nm(href="#" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown") 
+										i.fa.fa-user-plus.fa-lg
+										span.badge 3
+									ul.dropdown-menu(aria-labelledby="dropdownMenu")
+										li
+											a(href="#") List 1
+										li
+											a(href="#") List 1
+								li
+									a.dropdown-toggle.mem1-nm(href="#" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown") 
+										i.fa.fa-envelope.fa-lg
+										span.badge 6
+									ul.dropdown-menu(aria-labelledby="dropdownMenu")
+										li
+											a(href="#") List 1
+										li
+											a(href="#") List 1
+								li
+									a.dropdown-toggle.mem1-nm(href="#" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown") 
+										i.fa.fa-globe.fa-lg
+										span.badge 17
+									ul.dropdown-menu(aria-labelledby="dropdownMenu")
+										li
+											a(href="#") List 1
+										li
+											a(href="#") List 1
+								li.dropdown.pull-right
+									a.dv-picmember(href="#" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" ) #[img.m1-adm.img-circle.img-responsive(src="img/person/membermain.jpg" alt="")] 
+										span Alya
+											i.fa.fa-angle-down
+									ul.dropdown-menu
+										li
+											a(href="#") Edit Profile
+										li
+											a(href="#") Manage Order
+										li
+											a(href="#") Logout
+						.dream-topheader.pull-left.col-xs-12.col-sm-6
+							button.navbar-toggle(type="button") 
+								span.icon-bar
+								span.icon-bar
+								span.icon-bar
+							.logo.brand
+								img(alt="Dream" src="img/logo.png")
+				.row
+					#dv-navmenu.navbar-collapse.collapse
+						ul.canvas-left.nav.navbar-nav.pull-left.col-sm-7
+							li
+								button.navbar-toggle(type="button") 
+									span.icon-bar
+									span.icon-bar
+									span.icon-bar
+							li
+								a(href="#") Home
+							li
+								a(href="#") Progress
+							li
+								a(href="#") Achivement
+							li
+								a(href="#") Privacy
+						.search-cate.col-sm-5.pull-right
+							.input-group
+								.input-group-btn
+									button.btn.btn-info.dropdown-toggle(aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" type="button") CATEGORIES
+										i.fa.fa-angle-down
+									ul.dropdown-menu
+										li
+											a(href="#") Categories1
+										li
+											a(href="#") Categories2
+										li
+											a(href="#") Categories3
+								input.form-control(type="text")
+		#mainContainer.container-fluid
+			.row
+				#body.main-content
+					.col-xs-12.top-page
+						.dreambox
+							.clearfix.col-sm-6.tsdl-1
+								.col-xs-12.col-sm-3
+									img(src="img/person/membermain.jpg").m2-adm.img-circle.img-responsive
+								.col-xs-12.col-sm-9
+									h2.m-name Alaya Noer
+									.m-map
+										p
+											i.fa.fa-map-marker.fa-lg
+											span Califonia, united State of America
+									.m-quote
+										p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla lorem risus.
+									.btn-group.ad-dream
+										button.btn.btn-info(type="button")
+											i.fa.fa-cloud.fa-lg 
+											span Add New Dream
+										button.btn.btn-info.dropdown-toggle(type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+											i.fa.fa-angle-down.fa-lg
+											span.sr-only Toggle Dropdown
+										ul.dropdown-menu
+											li
+												a(href="#") Menu 1
+											li
+												a(href="#") Menu 2
+											li
+												a(href="#") Menu 3
+							.clearfix.col-sm-6.tsdl-2
+								.box-lfr
+									.col-sm-6
+										.sg-mlt
+											h3 My Dream Lifestyle
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2.jpg" alt="...")
+												p.lab-dre Dream 1
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2-1.jpg" alt="...")
+												p.lab-dre Dream 1
+											
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2-2.jpg" alt="...")
+												p.lab-dre Dream 1
+										.sg-mlt
+											h3 My Dream Companies
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2-3.jpg" alt="...")
+												p.lab-dre Dream 1
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2-4.jpg" alt="...")
+												p.lab-dre Dream 1
+											
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2-5.jpg" alt="...")
+												p.lab-dre Dream 1
+									.col-sm-6
+										.sg-mlt
+											h3 My Dream Job
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2-6.jpg" alt="...")
+												p.lab-dre Dream 1
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2-7.jpg" alt="...")
+												p.lab-dre Dream 1
+											
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2-8.jpg" alt="...")
+												p.lab-dre Dream 1
+										.sg-mlt
+											h3 My Dream Club
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2-9.jpg" alt="...")
+												p.lab-dre Dream 1
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2-10.jpg" alt="...")
+												p.lab-dre Dream 1
+											
+											.col-xs-4
+												img.m2-adm.img-circle.img-responsive(src="img/person/member2-11.jpg" alt="...")
+												p.lab-dre Dream 2
+					.main
+						.col-sm-3.sdl-1
+							.dreambox.clearfix
+								.left-sidebar
+									h3.widget-title Connect
+									.widget-content
+										a.con-ic.col-xs-4(href="#" title="..") #[img(src="img/icon-individu.png")] Individu
+										a.con-ic.col-xs-4(href="#" title="..") #[img(src="img/icon-organization.png")] Organization
+										a.con-ic.col-xs-4(href="#" title="..") #[img(src="img/icon-group.png")] Group
+							.dreambox.clearfix
+								.left-sidebar
+									h3.widget-title Recently Viewed
+									.widget-content
+										ul.rec-view
+											li
+												.col-xs-4
+													img.m3-adm.img-responsive.img-circle(src="img/person/member3.jpg" alt="...")
+												.col-xs-8
+													a(href="#") Jonatan Doe
+													span Tampa, Florida 21308
+											li
+												.col-xs-4
+													img.m3-adm.img-responsive.img-circle(src="img/person/member3-1.jpg" alt="...")
+												.col-xs-8
+													a(href="#") Elga Riana
+													span Tampa, Florida 21308
+											li
+												.col-xs-4
+													img.m3-adm.img-responsive.img-circle(src="img/person/member3-2.jpg" alt="...")
+												.col-xs-8
+													a(href="#") Palupi
+													span Tampa, Florida 21308
+							.dreambox.clearfix
+								.left-sidebar
+									h3.widget-title Connect & Invite to your Friends
+									.widget-content
+										a.con-ic.col-xs-3(href="#") #[img(img src="img/icon-fb.png" alt="...")]
+										a.con-ic.col-xs-3(href="#") #[img(img src="img/icon-gp.png" alt="...")]
+										a.con-ic.col-xs-3(href="#") #[img(img src="img/icon-tw.png" alt="...")]
+										a.con-ic.col-xs-3(href="#") #[img(img src="img/icon-it.png" alt="...")]
+						.col-sm-6.cdb-1
+							.dreambox
+								.header-dre
+									.col-xs-3.col-sm-2
+										img.m4-adm.img-responsive.img-circle(src="img/person/member4.jpg" alt="...")
+									.col-xs-9.col-sm-6.hename
+										.row
+											a(href="#") Alaya Noer
+											span Tampa, Florida 21308
+									.col-xs-12.col-sm-4
+										.pull-right
+											input.like-b(type="button" value="30")
+											input.payu-b(type="button" value="3")
+											input.foll-b(type="button" value="3")
+								.col-xs-12
+									.dpost-co
+										.dream-tit
+											span.pull-left Travel to Bali Island
+											span.pull-right
+												a(href="#") detail
+													i.fa.fa-angle-double-right
+										p.excerpt-dream Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla lorem risus. Donec luctus est at euismod scelerisque.
+										.dream-thumb
+											img.img-responsive(src="img/dream1.jpg")
+											.shadow-image
+												.shadow-content
+													strong Travel to Bali island
+													.kress-wrap
+														.added-kres #[# Added]
+															span 60
+														.done-kres #[# Done]
+															span 23
+							.dreambox
+								.header-dre
+									.col-xs-3.col-sm-2
+										img.m4-adm.img-responsive.img-circle(src="img/person/member4.jpg" alt="...")
+									.col-xs-9.col-sm-6.hename
+										.row
+											a(href="#") Alaya Noer
+											span Tampa, Florida 21308
+									.col-xs-12.col-sm-4
+										.pull-right
+											input.like-b(type="button" value="30")
+											input.payu-b(type="button" value="3")
+											input.foll-b(type="button" value="3")
+								.col-xs-12
+									.dpost-co
+										.dream-tit
+											span House
+											span.pull-right
+												a(href="#") detail
+													i.fa.fa-angle-double-right
+										p.excerpt-dream Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla lorem risus. Donec luctus est at euismod scelerisque.
+										.dream-thumb
+											img.img-responsive(src="img/dream2.jpg")
+											.shadow-image
+												.shadow-content
+													House
+													.kress-wrap
+														.added-kres #[# Added]
+															span 60
+														.done-kres #[# Done]
+															span 23
+						.col-sm-3.sdl-2
+							.dreambox.clearfix
+								.left-sidebar
+									h3.widget-title Me In 3
+									.widget-content
+										ul.mein3
+											li
+												a(href="") #[img.img-circle(src="img/hand-icon.png")] Kind
+											li
+												a(href="") #[img.img-circle(src="img/brain-icon.png")] Brain
+											li
+												a(href="") #[img.img-circle(src="img/gpeople-icon.png")] People			
+							.dreambox.clearfix
+								.left-sidebar
+									h3.widget-title Achievments
+									.widget-content
+										ul.acv-list
+											li
+												img(src="img/acv-image.png")
+												a(href="#") #[ Weding]
+													i.fa.fa-star.fa-lg
+													span Done
+											li
+												img(src="img/acv-image2.png")
+												a(href="#") #[ Go to paris]
+													i.fa.fa-star.fa-lg
+													span Done
+											li
+												img(src="img/acv-image3.png")
+												a(href="#") #[ Higling]
+													i.fa.fa-star.fa-lg 
+													span Done	
+							.dreambox.clearfix
+								.left-sidebar
+									h3.widget-title Dream Progres
+									.widget-content
+										ul.mein3
+											li
+												span.pull-left.labe-dream Umroh
+												span.pull-right.pros-dream 60
+												.clearfix
+												.progress
+													.progress-bar(role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;")
+											li
+												span.pull-left.labe-dream House
+												span.pull-right.pros-dream 60
+												.clearfix
+												.progress
+													.progress-bar(role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;")
+											li
+												span.pull-left.labe-dream Car
+												span.pull-right.pros-dream 80
+												.clearfix
+												.progress
+													.progress-bar(role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;")
+			footer.footer-site.row
+				.col-sm-4
+					p #[&copy; Company 2014]
+				.col-sm-4
+					ul.sosmed-dream
+						li
+							a(href="#") #[img.img-circle(src="img/fb.png")]
+						li
+							a(href="#") #[img.img-circle(src="img/twitt.png")]
+						li
+							a(href="#") #[img.img-circle(src="img/gpluss.png")]
+						li
+							a(href="#") #[img.img-circle(src="img/youtube.png")]
+				.col-sm-4
+					ul.foo-menus
+						li
+							a(href="#") Home
+							a(href="#") Home
+							a(href="#") Home
+							a(href="#") Home
+							a(href="#") Home
+		script(src="js/core.min.js")
+		script(src="js/main.js")
