@@ -14,7 +14,7 @@ Make sure you have [Node.js](http://nodejs.org) version 0.10.34 or newer and mod
 
 ### Clone ###
 ```
-git clone https://bitbucket.org/pradesga/dreamvolt.git dreamvolt
+git clone https://github.com/pradesga/DreamVolt.git dreamvolt
 ```
 
 ### Install dependencies ###
